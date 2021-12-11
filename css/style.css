@@ -80,6 +80,7 @@ grid-template-areas: "header header header"
     grid-area: header;
     position: sticky;
     top: 0px;
+    z-index: 1000;
 
 
 }
@@ -142,7 +143,7 @@ transform: scale(1.05) translate(-30%, -50%);
 
 .main__after {
     position:static;
-    margin-top: 25rem;
+    margin-top: 35rem;
     display: grid;
     padding: 100px;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
@@ -248,12 +249,9 @@ transform: scale(1.05) translate(-30%, -50%);
   .fondocentro { grid-area: fondocentro; }
  
   .footer__logo{
-    height: 60px;
-}
+    height: 60px; }
 
   .feedinsta { grid-area: feedinsta; }
-  
-}
 
 /* fin footer */
 
@@ -264,13 +262,8 @@ transform: scale(1.05) translate(-30%, -50%);
 
 /* ESTILOS DESKTOP */
 
-@media screen and (min-width:768px){
-    .footer__logo{
-        background-color: tomato;
-    }
-}
 /* ESTILOS MOVILES */
-@media screen and (max-width:769px){
+@media screen and (max-width:768px){
 
     .main__after {
         position:static;
@@ -366,21 +359,20 @@ transform: scale(1.05) translate(-30%, -50%);
           "fondocentro"
           "feedinsta" ;
         
-      }
+    }
       
       .fondoder { grid-area: fondoder; display:none}
       .fondoizq { grid-area: fondoizq; display:none }
       .fondotop { grid-area: fondotop; display:none}
       .fondobottom { grid-area: fondobottom; display:none}
       
-      .redes { grid-area: redes; 
-    text-align: center;}
+      .redes { grid-area: redes; text-align: center;}
       .fondocentro { grid-area: fondocentro; }
       .footer__logo { height: 100px;}
       .feedinsta { grid-area: feedinsta; }
       
-    }
-    .nos__main__after {
+
+      .nos__main__after {
         display: grid;
         padding: 10px;
         position:static;
@@ -407,4 +399,5 @@ transform: scale(1.05) translate(-30%, -50%);
       .body{
         display: grid;
         grid-template-rows: auto auto auto;
+      }
 }
