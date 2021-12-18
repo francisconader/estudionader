@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap");
+h1 {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.heroe {
+  height: 90vh;
+}
+
+.servicios__heroe {
+  height: 40vh;
+}
+
+.carousel-caption {
+  bottom: 15vh !important;
+}
+/*# sourceMappingURL=main.css.map */
