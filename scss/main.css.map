@@ -1,11 +1,15 @@
 {
     "version": 3,
-    "mappings": "AAAA,OAAO,CAAC,uFAAI;ACAZ,AAAA,EAAE,CAAA;EAAE,WAAW,EAAE,uBAAuB;CACvC;;AEDD,AAAA,MAAM,CAAA;EACF,MAAM,EAAE,IAAI;CACX;;AAED,AAAA,iBAAiB,CAAA;EACjB,MAAM,EAAE,IAAI;CACX;;AACD,AAAA,iBAAiB,CAAA;EACb,MAAM,EAAE,eAAe;CAC1B",
+    "mappings": "AACA,OAAO,CAAC,uFAAI;AIDZ,AAAA,MAAM,CAAA;EACF,MAAM,EAAE,IAAI;CACX;;AAED,AAAA,iBAAiB,CAAA;EACjB,MAAM,EAAE,IAAI;CACX;;AACD,AAAA,iBAAiB,CAAA;EACb,MAAM,EAAE,eAAe;CAC1B",
     "sources": [
         "main.scss",
+        "parciales/_vars.scss",
         "parciales/_reset.scss",
         "parciales/_header.scss",
-        "parciales/_hero.scss"
+        "parciales/_hero.scss",
+        "parciales/_footer.scss",
+        "parciales/_componentes.scss",
+        "parciales/_responsive.scss"
     ],
     "names": [],
     "file": "main.css"
