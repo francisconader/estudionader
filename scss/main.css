@@ -1,4 +1,19 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap");
+.header {
+  background-color: black;
+  padding: 20px 10px;
+}
+
+.header__logo {
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+.header__logo:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
 .heroe {
   height: 90vh;
 }
@@ -11,11 +26,16 @@
   bottom: 15vh !important;
 }
 
-.serviciosmain {
-  background-color: blueviolet;
+.btn:hover {
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
 }
 
-.serviciosmain.mt-5 {
-  margin-top: 6rem !important;
+.smain {
+  background-color: #eeeeee;
+}
+
+.smain__contenedors__columnas1 {
+  background-color: black;
 }
 /*# sourceMappingURL=main.css.map */

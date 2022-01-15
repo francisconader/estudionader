@@ -4,16 +4,19 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
+    <meta name="description" content="Estudio de arquitectura comercial y residencial ubicado en Uruguay.">
+    <meta name="keywords" content="arquitectura, estudio, obra, tramite, construccion">
+    
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-   
-    <link rel="stylesheet" href="../css/style.css">
+    
+    <link rel="stylesheet" href="../scss/main.css">
     <title>Estudio Nader</title>
+
   </head>
   <body>
-    <header> 
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <header class="header"> 
+        <nav class="navbar navbar-expand-lg navbar-dark bg-black">
         <div class="container-fluid">
           <a class="navbar-brand" href="#"><img src=../images/logonaderh.png alt="logo"></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -25,7 +28,7 @@
                     <a class="nav-link" href="../index.html">INICIO</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" active" aria-current="page" href="#">SERVICIOS</a> 
+                    <a class="nav-link active" aria-current="page" href="#">SERVICIOS</a> 
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="../pages/proyectos.html">PROYECTOS</a>
@@ -41,6 +44,7 @@
         </div>
       </nav>
     </header>
+    <hr class="separador color-change-2x">
     <hero>
         <div class="container-fluid mt-5">
             <div class="row">
@@ -55,21 +59,21 @@
                     </div>
                     <div class="carousel-inner servicios__heroe">
                         <div class="carousel-item active">
-                            <img src="../images/hero_imagen1.jpg" class="d-block w-100" alt="">
+                            <img src="../images/procesos-1.jpeg" class="d-block w-100" alt=" procesos1">
                             <div class="carousel-caption d-none d-md-block ">
                                 <h5>Hacemos Arquitectura</h5>
                                 <p>Brindamos soluciones constructivas personalizadas.</p>
                             </div>
                         </div>
                         <div class="carousel-item">
-                            <img src="../images/hero_imagen2.jpg" class="d-block w-100" alt="...">
+                            <img src="../images/procesos2.jpeg" class="d-block w-100" alt="procesos2">
                             <div class="carousel-caption d-none d-md-block">
                                 <h5>Second slide label</h5>
                                 <p>Some representative placeholder content for the second slide.</p>
                             </div>
                         </div>
                         <div class="carousel-item">
-                            <img src="../images/hero_imagen3.jpg" class="d-block w-100" alt="...">
+                            <img src="../images/procesos3.jpeg" class="d-block w-100" alt="procesos3">
                             <div class="carousel-caption d-none d-md-block mb-100">
                                 <h5>Third slide label</h5>
                                 <p>Some representative placeholder content for the third slide.</p>
@@ -93,32 +97,23 @@
     <main>
         <div class="container-fluid">
             <div class="row mt-5">
-                <div class="col-md-4 justify-content-center">
-                    <h5 class="text-center">PROYECTOS Y DISEÑO INTERIOR</h5>
+                <div class="col-md-4 p-4">
+                    <h6 class="text-center">PROYECTOS Y DISEÑO INTERIOR</h6>
                     <br>
-                    <p class="text-center fs-6">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima eum quasi dicta, minus quo
-                    dolorum? Eveniet atque quo adipisci ea. Doloribus quas voluptatibus deserunt atque corporis excepturi
-                    cupiditate sint pariatur temporibus, repellat dolorem suscipit sed ullam fugiat illum aliquid. Alias?</p>
+                    <p class="text-center p-3 fs-6">La fase inicial de todo proyecto arquitectonico. Se trata de estudiar la situacion, los requerimientos y las espectativas, entender las busquedas detras de als intenciones y plasmarlas en un diseño que las acompañe.</div>
+                <div class="col-md-4 p-4">
+                    <h6 class="text-center">GESTION Y DIRECCION DE OBRA</h6>
+                    <br>
+                    <p class="text-center p-3 fs-6">Comunicacion, eficiencia y orden. Bajo estos tres principios se plantea llevar adelante procesos complejos de creacion que muchas veces se ven afectados por variables internas o externas que implican la necesidad de reordenar y establecer buena comunicacion entre varios agentes.  </p>
                 </div>
-                <div class="col-md-4 justify-content-center">
-                    <h5 class="text-center">GESTION Y DIRECCION DE OBRA</h5>
+                <div class="col-md-4 p-4">
+                    <h6 class="text-center">ASESORIAS Y GESTIONES</h6>
                     <br>
-                    <p class="text-center fs-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe delectus exercitationem sunt
-                    explicabo dicta aperiam autem eveniet dolorum facilis distinctio consectetur repudiandae, laboriosam,
-                    enim modi cumque inventore? Commodi rerum eius aliquam perspiciatis quo, natus nam ea ut nemo iste
-                    cupiditate.</p>
-                </div>
-                <div class="col-md-4 justify-content-center">
-                    <h5 class="text-center">ASESORIAS Y GESTIONES</h5>
-                    <br>
-                    <p class="text-center fs-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe delectus exercitationem sunt
-                    explicabo dicta aperiam autem eveniet dolorum facilis distinctio consectetur repudiandae, laboriosam,
-                    enim modi cumque inventore? Commodi rerum eius aliquam perspiciatis quo, natus nam ea ut nemo iste
-                    cupiditate.</p>
+                    <p class="text-center p-3 fs-6">Brindamos asesorias puntuales sobre temas del rubro, desde estimacion de costos, resolucion de detalles tecnicos, cronogramas, tramites asociados en intendencias o consultas tecnicas.</p>
                 </div>
             </div>
 
-        <div class="container-fluid mt-5">
+        <div class="container-fluid mt-0">
             <div class="row mt-3">
                 <div class="col-md-12 mt-5">
                     <div class="card">
@@ -133,82 +128,67 @@
                         </div>
                     </div>
                 </div>
-            <div class="row mt-5 justify-content-center gap-1">
-                <div class="col-md-3 mt-3">
-                    <div class="card text-center">
-                        <img src="../images/2casanoche.jpeg" class="card-img-top mt-2" alt="LOGOCLIENTE1">
-                        <div class="card-body">
-                            <h5 class="card-title">Vivienda PM1.</h5>
-                            <p class="card-text">"Proyecto residencial llevado adelante con exito!"</p>
-                            <a href="../pages/proyectos.html" class="btn btn-light">VER PROYECTO</a>
+            
+            
+                <div class="row mt-5 ">
+                    <div class="col mt-3 d-flex justify-content-around">
+                        <div class="card text-center" style="width: 16rem;">
+                            <img src="../images/2casanoche.jpeg" class="card-img-top p-4" alt="LOGOCLIENTE1">
+                            <div class="card-body m-4">
+                                <h5 class="card-title">Diseño 3d</h5>
+                            <p class="card-text">Utilizamos herramientas de visualizacion en 3d para vrindar una imagen realista previa a la construccion.</p>
+                            <a href="../pages/proyectos.html" class="btn btn-dark btn-sm mt-3">VER VIVIENDA</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col mt-3 d-flex justify-content-around">
+                        <div class="card text-center" style="width: 16rem;">
+                            <img src="../images/2casanoche.jpeg" class="card-img-top p-4" alt="LOGOCLIENTE1">
+                            <div class="card-body m-4">
+                                <h5 class="card-title">Proyecto ejecutivo</h5>
+                            <p class="card-text">La realizacion de planos a detalle es realizada via CAD o BIM y permite estudiar los diferentes sistemas que completarán su proyecto.</p>
+                            <a href="../pages/proyectos.html" class="btn btn-dark btn-sm mt-3">VER INDUSTRIA</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col mt-3 d-flex justify-content-around">
+                        <div class="card text-center" style="width: 16rem;">
+                            <img src="../images/2casanoche.jpeg" class="card-img-top p-4" alt="LOGOCLIENTE1">
+                            <div class="card-body m-4">
+                                <h5 class="card-title">Informe de Patologias.</h5>
+                                <p class="card-text">Realizacion de informes y asesorias apoyados en nuestros tecnicos, capaces de acompañarlos en todo el proceso de obra.</p>
+                                <a href="../pages/proyectos.html" class="btn btn-dark btn-sm mt-3">VER COMERCIO</a>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3 mt-3">
-                    <div class="card text-center">
-                        <img src="../images/2casanoche.jpeg" class="card-img-top mt-2" alt="LOGOCLIENTE1">
-                        <div class="card-body">
-                            <h5 class="card-title">Instalaciones V.A.</h5>
-                            <p class="card-text">"Direccion de obra industrial llevada adelante con exito!"</p>
-                            <a href="../pages/proyectos.html" class="btn btn-light">VER OBRA</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3 mt-3">
-                    <div class="card text-center">
-                        <img src="../images/2casanoche.jpeg" class="card-img-top mt-2" alt="LOGOCLIENTE1">
-                        <div class="card-body">
-                            <h5 class="card-title">Informe de Patologias.</h5>
-                            <p class="card-text">"Asesoria en oficinas llevado adelante con exito!"</p>
-                            <a href="../pages/proyectos.html" class="btn btn-light">VER INFORME</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+<br>
 <br>
 <br>
         <div class="container-fluid mt-5">
-            <div class="row mt-5">
-                <div class="col-md-6 justify-content-center">
+            <div class="row mt-5 text-center">
+                <div class="col-md-6 p-5">
                     <h5>EL EQUIPO TECNICO</h5>
-                    <p class="text-center fs-6">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima eum quasi dicta, minus quo
+                    <p class="text-center fs-6 mt-3">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima eum quasi dicta, minus quo
                     dolorum? Eveniet atque quo adipisci ea. Doloribus quas voluptatibus deserunt atque corporis excepturi
                     cupiditate sint pariatur temporibus, repellat dolorem suscipit sed ullam fugiat illum aliquid. Alias?</p>
-                    <a href="../pages/contacto.html" class="btn btn-light justify-content-center">SOLICITAR PRESUPUESTO</a>
+                    <a href="../pages/contacto.html" class="btn btn-light btn-sm">SOLICITAR PRESUPUESTO</a>
                 </div>
                 
-                <div class="col-md-6 justify-content-center">
-                    <h5>INSTALACIONES</h5>
-                    <p class="text-center fs-6">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima eum quasi dicta, minus quo
+                <div class="col-md-6 justify-content-center p-5">
+                    <h5>TESTIMONIOS DE NUESTROS CLIENTES</h5>
+                    <p class="text-center fs-6 mt-3">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima eum quasi dicta, minus quo
                     dolorum? Eveniet atque quo adipisci ea. Doloribus quas voluptatibus deserunt atque corporis excepturi
                     cupiditate sint pariatur temporibus, repellat dolorem suscipit sed ullam fugiat illum aliquid. Alias?</p>
-                    <a href="../pages/proyectos.html" class="btn btn-light">VER MAS PROYECTOS</a>
+                    <a href="../index.html" class="btn btn-light btn-sm">VER CLIENTES PRINCIPALES</a>
                 </div>
                 
-            </div>
-        </div>
-
-        <div class="container-fluid">
-            <div class="row mt-5">
-                <div class="col-md-3 mt-1">
-                    <img src="../images/main_imagen2.png" class="img-fluid" alt="...">
-                </div>
-                <div class="col-md-3 mt-1">
-                    <img src="../images/main_imagen2.png" class="img-fluid" alt="...">
-                </div>
-                <div class="col-md-3 mt-1">
-                    <img src="../images/main_imagen3.png" class="img-fluid" alt="...">
-                </div>
-                <div class="col-md-3 mt-1">
-                    <img src="../images/main_imagen3.png" class="img-fluid" alt="...">
-                </div>
             </div>
         </div>
     </main>
 
     <footer>
-        <div class="container-fluid bg-dark text-white mt-5">
+        <div class="container-fluid bg-black text-white mt-5">
             <div class="row">
                 <div class="container mt-5 mb-3">
                     <div class="row">

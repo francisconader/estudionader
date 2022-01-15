@@ -1,6 +1,6 @@
-.serviciosmain{
-    background-color: blueviolet;
-    &.mt-5{
-        margin-top: 6rem !important;
+.smain{
+    background-color: $color-secundario;
+    &__contenedors__columnas1{
+        background-color: $color-principal;
     }
-}
+    }

@@ -9,40 +9,46 @@
     
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    
+    <!-- AOS CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
     <link rel="stylesheet" href="scss/main.css">
     <title>Estudio Nader</title>
 
   </head>
   <body>
-    <header class="header"> 
-        <nav class="navbar navbar-expand-sm sticky-top navbar-dark bg-black">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#"><img src=./images/logonaderh.png alt="logo"></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse justify-content-end" id="navbarNav" >
-            <ul class="navbar-nav align-items-center" >
-              <li class="nav-item" >
-                <a class="nav-link active" aria-current="page" href="#">INICIO</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./pages/servicios.html">SERVICIOS</a></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./pages/proyectos.html">PROYECTOS</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./pages/nosotros.html">NOSOTROS</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./pages/contacto.html">CONTACTO</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
+    <header class="header">
+        <nav class="header__menu navbar navbar-expand-lg navbar-dark bg-black">
+            <div class="header__contenedor container container-fluid">
+                <a class="header__logo navbar-brand" href="#"><img src=../images/logonaderh.png alt="logo"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav align-items-center">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="./index.html">INICIO</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/servicios.html">SERVICIOS</a></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/proyectos.html">PROYECTOS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/nosotros.html">NOSOTROS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../pages/contacto.html">CONTACTO</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
     </header>
+    <hr class="separador color-change-2x">
     <hero class="hero">
         <div class="container-fluid">
             <div class="row">
@@ -93,100 +99,94 @@
         </div>
     </hero>
     <main>
-        <div class="serviciosmain">
-            <div class="row mt-5">
-                <div class="col-md-4">
-                    <h2>SERVICIOS</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima eum quasi dicta, minus quo
-                    dolorum? Eveniet atque quo adipisci ea. Doloribus quas voluptatibus deserunt atque corporis excepturi
-                    cupiditate sint pariatur temporibus, repellat dolorem suscipit sed ullam fugiat illum aliquid. Alias?</p>
+        <div class="smain mt-5">
+            <div class="contenedors row">
+                <div class="columnas1 col m-5 border border-dark text-center" data-aos="fade-up">
+                    <h4 class="m-4">SERVICIOS</h4>
+                    <div class="col m-2">
+                        <p>Brindamos servicios vinculados al sector arquitectonico, desde la creacion del proycto, las tramitaciones
+                            asociadas y la direccion de obra, ademas de informes asesorias y otras actividades vinculadas.</p>
+                            <p>- - -</p>
+                        </div>
                 </div>
-                <div class="col-md-4">
-                    <h2>ESTUDIO</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe delectus exercitationem sunt
-                    explicabo dicta aperiam autem eveniet dolorum facilis distinctio consectetur repudiandae, laboriosam,
-                    enim modi cumque inventore? Commodi rerum eius aliquam perspiciatis quo, natus nam ea ut nemo iste
-                    cupiditate.</p>
+                <div class="columnas2 col m-5 border border-dark text-center" data-aos="fade-up">
+                    <h4 class="m-4">ESTUDIO</h4>
+                    <div class="col m-2">
+                        <p>Nuestras oficinas se encuentran en la ciudad de Montevideo, mintras que nuestro taller de investigacion y desarrollo se ubica en Playa pascual, San Jose, lo que nos permite ampliar nuestro radio de alcance y brindar un servicio de apoyo al trabajar en equipo con su desarrollador.  </p>
+                    </div>
                 </div>
-                <div class="col-md-4">
-                    <h2>EQUIPO</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa sequi, eaque deserunt assumenda
-                    praesentium consequatur voluptatem commodi pariatur, ipsum distinctio laudantium laborum vero. Voluptas
-                    laborum illum neque aperiam, omnis delectus laboriosam, asperiores explicabo quod officia autem error,
-                    nostrum dolorum eum.</p>
+                <div class="columnas3 col m-5 border border-dark text-center" data-aos="fade-up">
+                    <h4 class="m-4">EQUIPO</h4>
+                    <div class="col m-2">
+                        <p>Contamos con un equipo de profesionales con amplia experiencia en el rubro, y asesores extrnos vinculados a las areas de conocimiento necesarias para llevar proyectos de mediano y gran porte.</p>
+                        <p>- - -</p>
+                    </div>
                 </div>
             </div>
-
+        <hr class="separador color-change-2x">
         <div class="container">
             <div class="row mt-3">
-                <div class="col-md-12 mt-5">
-                    <h2>PROYECTOS 2021</h2>
+                <div class="col mt-4 mb-3 text-center" data-aos="flip-up">
+                    <h5>PROYECTOS 2021</h5>
                     <p>Este ha sido un año de grandes desafios y grandes logros, te invitamos a conocer las obras del año. </p>
                 </div>
             </div>
-            <div class="row mt-3 justify-content-center gap-5">
-                <div class="col-md-3 mt-3">
-                    <div class="card" style="width: 18rem;">
-                        <img src="./images/2casanoche.jpeg" class="card-img-top mt-2" alt="LOGOCLIENTE1">
-                        <div class="card-body">
-                            <h5 class="card-title">PROYECTO 01</h5>
-                            <p class="card-text">"Proyecto de oficinas llevado adelante con exito!"</p>
-                            <a href="./pages/proyectos.html" class="btn btn-primary">VER PROYECTO</a>
+        </div>
+        <hr class="separador color-change-2x">
+        <div class="container"></div>
+           <div class="row mt-5">
+                <div class="col mt-3 mb-5 d-flex justify-content-around" data-aos="flip-left" data-aos-duration="1000">
+                    <div class="card text-center" style="width: 16rem;">
+                        <img src="./images/2casanoche.jpeg" class="card-img-top p-4" alt="LOGOCLIENTE1">
+                        <div class="card-body m-4">
+                            <h5 class="card-title"> PROYECTO R4</h5>
+                            <p class="card-text">"Proyecto residencial llevado adelante con exito!"</p>
+                            <a href="./pages/proyectos.html" class="btn btn-dark btn-sm mt-3">VER VIVIENDA</a>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3 mt-3">
-                    <div class="card" style="width: 18rem;">
-                        <img src="./images/2casanoche.jpeg" class="card-img-top mt-2" alt="LOGOCLIENTE1">
-                        <div class="card-body">
-                            <h5 class="card-title">PROYECTO 02</h5>
-                            <p class="card-text">"Proyecto de oficinas llevado adelante con exito!"</p>
-                            <a href="./pages/proyectos.html" class="btn btn-primary">VER PROYECTO</a>
+                <div class="col mt-3 mb-5 d-flex justify-content-around" data-aos="flip-left" data-aos-duration="1000" data-aos-delay="200">
+                    <div class="card text-center" style="width: 16rem;">
+                        <img src="./images/2casanoche.jpeg" class="card-img-top p-4" alt="LOGOCLIENTE1">
+                        <div class="card-body m-4">
+                            <h5 class="card-title">PROYECTO I2</h5>
+                            <p class="card-text">"Proyecto industrial llevado adelante con exito!"</p>
+                            <a href="./pages/proyectos.html" class="btn btn-dark btn-sm mt-3">VER INDUSTRIA</a>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3 mt-3">
-                    <div class="card" style="width: 18rem;">
-                        <img src="./images/2casanoche.jpeg" class="card-img-top mt-2" alt="LOGOCLIENTE1">
-                        <div class="card-body">
-                            <h5 class="card-title">PROYECTO 03</h5>
+                <div class="col mt-3 mb-5 d-flex justify-content-around" data-aos="flip-left" data-aos-duration="1000" data-aos-delay="400">
+                    <div class="card text-center" style="width: 16rem;">
+                        <img src="./images/2casanoche.jpeg" class="card-img-top p-4" alt="LOGOCLIENTE1">
+                        <div class="card-body m-4">
+                            <h5 class="card-title">PROYECTO C3</h5>
                             <p class="card-text">"Proyecto de oficinas llevado adelante con exito!"</p>
-                            <a href="./pages/proyectos.html" class="btn btn-primary">VER PROYECTO</a>
+                            <a href="./pages/proyectos.html" class="btn btn-dark btn-sm mt-3">VER COMERCIO</a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-
+        <hr class="separador color-change-2x mt-5">
         <div class="container">
             <div class="row mt-5">
-                <div class="col-md-6">
-                    <h2>SERVICIOS</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima eum quasi dicta, minus quo
-                    dolorum? Eveniet atque quo adipisci ea. Doloribus quas voluptatibus deserunt atque corporis excepturi
-                    cupiditate sint pariatur temporibus, repellat dolorem suscipit sed ullam fugiat illum aliquid. Alias?</p>
-                </div>
-                <div class="col-md-6">
-                    <h2>SERVICIOS</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima eum quasi dicta, minus quo
-                    dolorum? Eveniet atque quo adipisci ea. Doloribus quas voluptatibus deserunt atque corporis excepturi
-                    cupiditate sint pariatur temporibus, repellat dolorem suscipit sed ullam fugiat illum aliquid. Alias?</p>
-                </div>
-            </div>
+                <div class="col-md-6" data-aos="fade-right">
+                    <h5>GARANTIA DE CALIDAD</h5>
+                    <p>En estudio nader nos preocupamos por brindar un diseño de calidad concentrandonos en un proceso de diseño en base a etapas claras, que permitan una comunicacion fluida con el cliente, buscando la eficiencia de cada espacio, y potenciando las caracteristicas que lo hagan lucirse.</div>
         </div>
 
         <div class="container">
             <div class="row mt-5">
-                <div class="col-md-3 mt-1">
+                <div class="col-md-3 mt-1 p-4" data-aos="zoom-in" data-aos-duration="1000">
                     <img src="./images/main_imagen2.png" class="img-fluid" alt="...">
                 </div>
-                <div class="col-md-3 mt-1">
+                <div class="col-md-3 mt-1 p-4" data-aos="zoom-in" data-aos-duration="1000">
                     <img src="./images/main_imagen2.png" class="img-fluid" alt="...">
                 </div>
-                <div class="col-md-3 mt-1">
+                <div class="col-md-3 mt-1 p-4" data-aos="zoom-in" data-aos-duration="1000">
                     <img src="./images/main_imagen3.png" class="img-fluid" alt="...">
                 </div>
-                <div class="col-md-3 mt-1">
+                <div class="col-md-3 mt-1 p-4" data-aos="zoom-in" data-aos-duration="1000">
                     <img src="./images/main_imagen3.png" class="img-fluid" alt="...">
                 </div>
             </div>
@@ -198,10 +198,9 @@
             <div class="row">
                 <div class="container mt-5 mb-3">
                     <div class="row">
-                        <div class="col-md-4">
-                            <h5 class="ms-3">Siguenos</h5>
-                            <p class="ms-3">Unete a nuestras redes sociales</p>
-                            <div class="btn-group-vertical justify-content-center align-items-center">
+                        <div class="col-md-4 text-center">
+                            <h6 class="ms-3">Unete a nuestras redes sociales</h6>
+                            <div class="btn-group-vertical btn-sm justify-content-center align-items-center">
                                 <a class="nav-link" href="https://www.instagram.com/estudio.nader/">INSTAGRAM</a></li>
                                 <a class="nav-link" href="https://www.facebook.com/estudionader.uy/">FACEBOOK</a></li>
                             </div>
@@ -210,7 +209,7 @@
                             <a class="nav-link img-fluid d-flex justify-content-center" href="./index.html"><img src=./images/logonaderh.png alt="logo"></a>
                         </div>
                         <div class="col-md-4 d-flex justify-content-center">
-                            <h5> Feed de Instagram</h5>
+                            <h6> Feed de Instagram</h6>
                             <a class="nav-link justify-content-center" href="https://www.instagram.com/estudio.nader/"><img src=./images/feedinsta.png alt="feedinsta"></a>
                         </div>
                     </div>
@@ -222,6 +221,12 @@
 
     <!--script de JS--> 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <!--script de AOS-->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 
   </body>
 </html>

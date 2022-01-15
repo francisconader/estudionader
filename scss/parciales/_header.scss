@@ -1,0 +1,13 @@
+@import "./vars";
+
+.header{
+    background-color: $color-principal;
+    padding: 20px 10px;
+
+    &__logo{
+        transition: all 1s;
+        &:hover {
+            transform: scale(1.1);
+        }
+    }
+}

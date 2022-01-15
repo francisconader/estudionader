@@ -1,14 +1,16 @@
 {
     "version": 3,
-    "mappings": "AACA,OAAO,CAAC,uFAAI;AIDZ,AAAA,MAAM,CAAA;EACF,MAAM,EAAE,IAAI;CACX;;AAED,AAAA,iBAAiB,CAAA;EACjB,MAAM,EAAE,IAAI;CACX;;AACD,AAAA,iBAAiB,CAAA;EACb,MAAM,EAAE,eAAe;CAC1B;;AGTL,AAAA,cAAc,CAAA;EACV,gBAAgB,EAAE,UAAU;CAI/B;;AALD,AAEI,cAFU,AAET,KAAK,CAAA;EACF,UAAU,EAAE,eAAe;CAC9B",
+    "mappings": "AACA,OAAO,CAAC,uFAAI;AGCZ,AAAA,OAAO,CAAA;EACH,gBAAgB,EFHF,KAAK;EEInB,OAAO,EAAE,SAAS;CAQrB;;AANI,AAAD,aAAO,CAAA;EACH,UAAU,EAAE,MAAM;CAIrB;;AALA,AAEG,aAFG,AAEF,MAAM,CAAC;EACJ,SAAS,EAAE,UAAU;CACxB;;AEVT,AAAA,MAAM,CAAA;EACF,MAAM,EAAE,IAAI;CACX;;AAED,AAAA,iBAAiB,CAAA;EACjB,MAAM,EAAE,IAAI;CACX;;AACD,AAAA,iBAAiB,CAAA;EACb,MAAM,EAAE,eAAe;CAC1B;;AEPL,AAAA,IAAI,AAAA,MAAM,CAAA;EACF,SAAS,EAAE,UAAU;CACxB;;AEJL,AAAA,MAAM,CAAA;EACF,gBAAgB,ERAD,OAAkB;CQIhC;;AAHA,AAAD,8BAAyB,CAAA;EACrB,gBAAgB,ERHN,KAAK;CQIlB",
     "sources": [
         "main.scss",
         "parciales/_vars.scss",
         "parciales/_reset.scss",
         "parciales/_header.scss",
+        "parciales/_vars.scss",
         "parciales/_hero.scss",
         "parciales/_footer.scss",
         "parciales/_componentes.scss",
+        "parciales/_vars.scss",
         "parciales/_serviciosmain.scss",
         "parciales/_responsive.scss"
     ],
