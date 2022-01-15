@@ -10,4 +10,12 @@
 .carousel-caption {
   bottom: 15vh !important;
 }
+
+.serviciosmain {
+  background-color: blueviolet;
+}
+
+.serviciosmain.mt-5 {
+  margin-top: 6rem !important;
+}
 /*# sourceMappingURL=main.css.map */
