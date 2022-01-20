@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap");
+@import url("//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css");
 .header {
   background-color: black;
   padding: 20px 10px;
@@ -26,6 +27,37 @@
   bottom: 15vh !important;
 }
 
+.btn-social {
+  border-radius: 50%;
+  color: #ffffff !important;
+  display: inline-block;
+  height: 54px;
+  line-height: 54px;
+  margin: 8px 4px;
+  text-align: center;
+  text-decoration: none;
+  -webkit-transition: background-color .3s;
+  transition: background-color .3s;
+  transition: background-color .3s;
+  width: 54px;
+}
+
+.btn-facebook {
+  background-color: #000000;
+}
+
+.btn-facebook:hover {
+  background-color: #4c70ba;
+}
+
+.btn-instagram {
+  background-color: #000000;
+}
+
+.btn-instagram:hover {
+  background-color: #a100a1;
+}
+
 .btn:hover {
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
@@ -37,13 +69,13 @@
   grid-auto-rows: 200px;
   gap: 1rem;
   grid-auto-flow: row dense;
+}
 
-
-  @media all and (min-width: 320px) {
+@media all and (min-width: 320px) {
   .grid-gallery {
     -ms-grid-columns: (1fr)[1];
         grid-template-columns: repeat(1, 1fr);
-      }
+  }
 }
 
 @media all and (min-width: 768px) {
@@ -58,7 +90,6 @@
     -ms-grid-columns: (1fr)[6];
         grid-template-columns: repeat(6, 1fr);
   }
-}
 }
 
 .grid-gallery__item:nth-child(11n+1) {
@@ -96,6 +127,19 @@
      object-fit: cover;
 }
 
+.btn-send {
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  width: 80%;
+  margin-left: 3px;
+}
+
+.help-block.with-errors {
+  color: #ff5050;
+  margin-top: 5px;
+}
+
 .smain {
   background-color: #eeeeee;
 }
@@ -103,5 +147,4 @@
 .smain__contenedors__columnas1 {
   background-color: black;
 }
-
 /*# sourceMappingURL=main.css.map */
